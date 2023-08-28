@@ -1,0 +1,14 @@
+eNumero = 1
+eTabla = 1
+defmultiplicacion(eNumero)
+	eContador = 1
+	eMultiplicacion = 0
+	while (eContador <=10)
+		eMultiplicacion = eNumero * eContador
+		print(eNumero, "x", eContador, "=", eMultiplicacion)
+		eContador += 1
+
+while (eTabla <= 10)
+	print("Tabla del ", eTabla)
+	multiplicacion(eNumero)
+	eTabla += 1
