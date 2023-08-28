@@ -5,7 +5,7 @@ deffizzBuzz(eNumero)
 		print(fizz)
 	if eNumero %5 == 0
 		print(buzz)
-	elif :
+	elif eNumero %2 = 0:
 		print(eNumero)
 
 while (eNumero <= 100)
