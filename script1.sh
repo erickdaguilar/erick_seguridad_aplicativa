@@ -1,1 +1,0 @@
-sudo useradd $1
