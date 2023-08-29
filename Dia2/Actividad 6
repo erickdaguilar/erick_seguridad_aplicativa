@@ -1,0 +1,7 @@
+mkdir /home/erick/herramientas;
+mkdir /home/erick/herramientas/deb;
+mv /home/erick/Downloads/code_1.81.1-1691620686_amd64.deb /home/erick/herramientas/deb;
+mkdir /home/erick/bak;
+cp /home/erick/herramientas/deb/code_1.81.1-1691620686_amd64.deb /home/erick/bak;
+sudo dpkg -i /home/erick/herramientas/deb/code_1.81.1-1691620686_amd64.deb;
+echo "Fin"
