@@ -1,1 +1,1 @@
-sudo useradd -d /home/$1 -p "123" -s /bin/zsh -c "act2" $1; echo "Se creó el usuario:" $1;
+sudo useradd -d /home/$1 -p '$6$jclFUSnOCAt.b4ye$MLfT/hjtQ/eQ7dLxeRYwpPAK.IdyJtSilMYV7xVwd8iTp.Duarnd7OjMLVxqYtnL5/zYnEwE4bHNLwjUKdSe50' -s /bin/zsh -c "act2" $1; echo "Se creó el usuario:" $1;
