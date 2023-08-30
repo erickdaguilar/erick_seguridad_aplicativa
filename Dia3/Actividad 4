@@ -1,0 +1,44 @@
+diccionario = {
+    "Juan": 8,
+    "Giselle":9,
+    "Damian":5,
+    "Ricardo":6,
+    "Yaotzin":6,
+    "Erick":7,
+    "Mario":8,
+    "Edgar":9,
+    "Fernanda":5,
+    "Daniel":6,
+    "Jesus":7,
+    "Damian":8,
+    "Yemahina":6,
+    "Eduardo":9,
+    "Bryan":9,
+    "Mariano":10,
+    "Alberto":8
+}
+
+def promedio(dicc):
+    suma = 0
+    for nombre in dicc:
+        suma += int(dicc[nombre])
+
+    print("El promedio es: ", str(suma/len(dicc)))
+
+def mayor(dicc):
+    listamayor = []
+    for nombre in dicc:
+        if(dicc[nombre] == 10):
+            listamayor.append(nombre)
+    print(listamayor)
+
+def menor(dicc):
+    listamenor = []
+    for nombre in dicc:
+        if(dicc[nombre] == 5):
+            listamenor.append(nombre)
+    print(listamenor)
+
+promedio(diccionario)
+mayor(diccionario)
+menor(diccionario)
