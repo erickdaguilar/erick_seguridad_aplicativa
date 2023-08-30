@@ -30,14 +30,14 @@ def mayor(dicc):
     for nombre in dicc:
         if(dicc[nombre] == 10):
             listamayor.append(nombre)
-    print(listamayor)
+    print("Los más estudiosos: ", listamayor)
 
 def menor(dicc):
     listamenor = []
     for nombre in dicc:
         if(dicc[nombre] == 5):
             listamenor.append(nombre)
-    print(listamenor)
+    print("Los reprobados: ", listamenor)
 
 promedio(diccionario)
 mayor(diccionario)
