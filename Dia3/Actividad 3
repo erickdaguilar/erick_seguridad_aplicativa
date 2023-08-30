@@ -1,0 +1,20 @@
+a = [8, 9, 10, 6, 6, 7, 8,
+     9, 5, 6, 7, 6, 8, 8, 9,
+     9, 5, 6, 7, 9, 10, 7, 8,
+     9, 9]
+
+def promedio(lista):
+    suma = 0
+    for nota in lista:
+        suma += nota
+
+    print(suma / len(lista))
+
+def reprobados(lista):
+    contador = 0
+    for nota in lista:
+        if(nota <= 5):
+            contador += 1
+    print("Hubo", contador, "reprobados")
+promedio(a)
+reprobados(a)
